@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Toc Toe</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+
+
+
+   
+<div id="girissayfasi">
+    <div id="choose">
+        <h2>Seçim Yap</h2>
+        <input type="button" id="X-choose" value="X">
+        <input type="button" id="O-choose" value="O">
+
+    </div>
+</div>
+    
+
+    <div class="anasayfa">
+
+        <div id="kazanandiv">
+            <h1 id="Kazanan"></h1>
+            <img class="konfetivd" src="https://acegif.com/wp-content/gif/confetti-17.gif" alt="">
+            <iframe style="display: none;" src="https://giphy.com/embed/1itd8X8whi3eOgZSRW" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>>
+        </div>
+        <table id="scoreboard">
+
+            <h1>Tic Tac Toe</h1>
+            <h2 id="player"></h2>
+    
+            <tr>
+              <td id="xgamer"> X oyuncusu </td>
+              <td width="30"> &nbsp; </td>
+              <td id="ogamer"> O Oyuncusu </td>
+            </tr>
+            <tr>
+              <td>
+                <h2 id="score-X">0</h2> 
+              </td>
+              <td> &nbsp; </td>
+              <td>
+                <h2 id="score-O">0</h2> 
+              </td>
+            </tr>
+        </table>
+    
+        <div class="game-container">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+
+
+
+            <div class="red-line" id="top-yatay"></div>
+            <div class="red-line" id="mid-yatay"></div>
+            <div class="red-line" id="bottom-yatay"></div>
+            <div class="red-line" id="left-dikey"></div>
+            <div class="red-line" id="mid-dikey"></div>
+            <div class="red-line" id="right-dikey"></div>
+            <div class="red-line" id="ltr-capraz"></div>
+            <div class="red-line" id="rtl-capraz"></div>
+
+
+        </div>
+
+        <p id="error"></p>
+
+        
+    
+    
+        <input type="button" id="btn" value="RESET">
+        <input type="button" id="newgame" value="Yeni Oyun">
+    
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+</body>
+</html>
